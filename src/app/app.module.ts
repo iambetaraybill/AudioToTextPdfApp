@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { RecordRtcComponent } from './record-rtc/record-rtc.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    RecordRtcComponent
   ],
   imports: [
     BrowserModule,
