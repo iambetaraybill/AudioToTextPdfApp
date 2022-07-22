@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { RecordRtcComponent } from './record-rtc/record-rtc.component';
+import {ButtonModule} from 'primeng/button';
 
 @NgModule({
   declarations: [
@@ -12,7 +13,8 @@ import { RecordRtcComponent } from './record-rtc/record-rtc.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
